@@ -120,6 +120,12 @@ ul, ol {
     list-style-type: none;
 }
 
+a {
+    color: #0E644B;
+    text-decoration: none;
+    outline: none;
+}
+
 /* Text center */
 .text-center {
     text-align: center;

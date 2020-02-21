@@ -163,3 +163,7 @@ Modules
 .uni_video_box:hover .uni_video_box::after {
     margin: 10px -10px;
 }
+
+.uni_video_box.style2::after {
+    background-color: #5bab2e;
+} 
