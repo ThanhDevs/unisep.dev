@@ -210,7 +210,7 @@ OUT TEAM
     transform: scale(0.8, 0.8);
 }
 
-.our_team_sl .items.center {
+.our_team_sl .items.slick-center {
     -ms-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
