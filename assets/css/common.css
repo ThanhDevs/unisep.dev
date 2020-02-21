@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import "resethtml5.css";
+@import "all.min.css";
+@import "slick.css";
+@import "slick-theme.css";
+
+/* https://encycolorpedia.com/5bab2e */
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: #353535;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* 
+HEADER
+*/
+header {
+    background-color: #fff;
+}
+
+#top {
+    line-height: 50px;
+    background-color: #5bab2e;
+    background-image: linear-gradient(141deg, #00AAA1 0%, #51b8b0 51%, #7ac7bf 75%);
+    color: #fff;
+}
+
+.top_box_right span {
+    display: inline-block;
+    margin: 0 8px 0;
+}
+
+
+#logo {
+    max-width: 200px;
+}
+
+#logo img {
+    width: 100%;
+    display: block;
+}
+
+#main_nav li {
+    position: relative;
+}
+
+#main_nav li  a {
+    text-decoration: none;
+}
+
+#main_nav > ul > li {
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+#main_nav > ul > li >  a {
+    text-transform: uppercase;
+    color: #0E644B;
+    font-weight: 600;
+}
+
+
+/* 
+MAIN CONTENT
+*/
+
+#main img {
+    max-width: 100%;
+}
+
+.title_wrap {
+    margin-bottom: 30px;
+}
+
+.title_wrap .title {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/* 
+Modules
+*/
+
+#uni_modules {
+    background-color: #5bab2e;
+    background-image: linear-gradient(141deg, #00AAA1 0%, #51b8b0 51%, #7ac7bf 75%);
+    color: #fff;
+}
+
+#uni_modules .title_wrap .title {
+    color: #e5f1dc;
+}
+
+.uni_list_box .icon {
+    width: 27px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.uni_list_box li {
+    clear: both;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+.uni_list_box li::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: url(../imgs/content3-icon.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.uni_video_box iframe {
+    width: 100%;
+    display: block;
+}
+
+/*  */
+
+.img_box_content {
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.1);
+    border-radius: 18px;
+    overflow: hidden;
+
+}
+
+.img_box_content .text_wrap {
+    padding: 20px;
+}
+
+.uni_video_box {
+    position: relative;
+    z-index: 2;
+    padding: 10px;
+}
+
+.uni_video_box::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .3s;
+}
+
+.uni_video_box:hover .uni_video_box::after {
+    margin: 10px -10px;
+}
