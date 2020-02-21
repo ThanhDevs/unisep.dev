@@ -86,6 +86,23 @@ MAIN CONTENT
     font-size: 18px;
 }
 
+.title_wrap .title span {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.title_wrap .title span::after {
+    content: "";
+    height: 2px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: #5bab2e;
+    transform: translateX(-50%);
+}
+
 /* 
 Modules
 */
@@ -167,3 +184,48 @@ Modules
 .uni_video_box.style2::after {
     background-color: #5bab2e;
 } 
+
+/* 
+OUT TEAM
+*/
+#our_team {
+    background: #092b6b url(../imgs/cvtv-bg.jpg) 0 no-repeat;
+    background-size: cover;
+}
+
+#our_team .title_wrap .title {
+    color: #e5f1dc;
+}
+
+/*  */
+.our_team_sl .items {
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 30px;
+    overflow: hidden;
+    background: #fff url(../imgs/bg-nui.jpg.png) -30px -40px no-repeat;
+    background-size: 120%;
+    -ms-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+}
+
+.our_team_sl .items.center {
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.our_team_sl .items img {
+    border: 2px solid #fff;
+    width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+    margin: 76px auto 20px;
+}
+
+.our_team_sl .text_wrap {
+    margin: 0 0 30px;
+    background: url(../imgs/chat-tools.png) no-repeat center bottom;
+    padding-bottom: 35px;
+}
