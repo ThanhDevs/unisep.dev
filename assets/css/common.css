@@ -79,6 +79,7 @@ MAIN CONTENT
 
 .title_wrap {
     margin-bottom: 30px;
+    position: relative;
 }
 
 .title_wrap .title {
@@ -325,3 +326,39 @@ footer#footer .widget-title {
     color: #22717D;
 }
 
+.title_wrap .view_all {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.uni_news_box .title_wrap .title::after,
+.uni_event_box .title_wrap .title::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(234deg,#9B42DA 0,#51509C 60%,#51509C 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 4px;
+}
+
+.uni_news_box .title_wrap .title,
+.uni_event_box .title_wrap .title {
+    padding-bottom: 10px;
+}
+
+/* 
+Testimonial
+*/
+
+.testimonial_sl {
+    margin: 0 -15px;
+}
+.testimonial_sl .items {
+    margin: 0 15px;
+    border: 2px solid #9B42DA;
+    border-radius: 8px;
+    overflow: hidden;
+}

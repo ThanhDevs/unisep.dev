@@ -627,3 +627,39 @@ a {
         max-width: 100%;
     }
 }
+
+/* Modal */
+.modal_box {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal_box .modal-dailog {
+    max-width: 530px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    z-index: 9999999999999999;
+}
+
+.modal-content {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+body.modal_show .modal_box {
+    display: flex;
+}
