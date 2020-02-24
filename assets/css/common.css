@@ -29,8 +29,7 @@ header {
 
 #top {
     line-height: 50px;
-    background-color: #5bab2e;
-    background-image: linear-gradient(134deg, #01045D 0%, #044A99 85%);
+    background-image: linear-gradient(134deg, #00527d 0%, #007d6a 85%);
     color: #fff;
 }
 
@@ -109,8 +108,7 @@ Modules
 */
 
 #uni_modules {
-    background-color: #5bab2e;
-    background-image: linear-gradient(134deg, #01045D 0%, #044A99 85%);
+    background-image: linear-gradient(134deg, #64a052   0%, #00717d 85%);
     color: #fff;
 }
 
@@ -144,6 +142,11 @@ Modules
 
 .uni_list_box h3 {
     text-transform: uppercase;
+    color: #fff;
+}
+
+section#why_us .uni_list_box h3 {
+    color: #f36033;
 }
 
 .uni_video_box iframe {
@@ -186,12 +189,14 @@ Modules
     margin: 10px -10px;
 }
 
-.uni_video_box.style2::after {background-image: linear-gradient(234deg,#9B42DA 0,#51509C 60%,#51509C 100%);} 
+.uni_video_box.style2::after {
+    background-image: linear-gradient(234deg,#9B42DA 0,#51509C 60%,#51509C 100%);
+} 
 
 /* 
 OUT TEAM
 */
-#our_team {background-image: linear-gradient(134deg, #01045D 0%, #044A99 85%);}
+#our_team {background-image: linear-gradient(134deg, #00527d 0%, #007d6a 85%);}
 
 #our_team .title_wrap .title {
     color: #e5f1dc;
