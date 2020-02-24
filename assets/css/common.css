@@ -103,6 +103,32 @@ MAIN CONTENT
     transform: translateX(-50%);
 }
 
+.regis-btn-wrap {
+    border: 1px solid #efefef;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 50%;
+    margin: 50px auto 0;
+    transition: .15s ease-in-out;
+    background-image: linear-gradient(134deg, #64a052   0%, #00717d 85%);
+    color: #fff;
+}
+
+.regis-btn-wrap h3 {
+    margin: 0;
+    color: #fff;
+}
+
+.regis-btn-wrap:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+    background-image: linear-gradient(234deg,#9B42DA 0,#51509C 60%,#51509C 100%);
+}
+
+.regis-btn-wrap:hover h3 {
+    color: #fff;
+}
+
 /* 
 Modules
 */
@@ -245,5 +271,34 @@ FOOTER
 }
 
 footer#footer .widget-title {
+    text-transform: uppercase;
+}
+
+
+/* Icon box */
+.ini_icon_box {
+    border-radius: 8px;
+    border: 1px solid #efefef;
+    margin: 0 0 15px;
+    padding: 20px;
+    position: relative;
+}
+
+.ini_icon_box .i_wrap {
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    color: green;
+}
+
+.ini_icon_box .text_wrap {
+    padding-top: 50px;
+}
+
+.ini_icon_box:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+}
+
+.ini_icon_box .text_wrap .title {
     text-transform: uppercase;
 }
