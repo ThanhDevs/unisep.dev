@@ -109,7 +109,7 @@ MAIN CONTENT
     padding: 20px;
     border-radius: 8px;
     max-width: 50%;
-    margin: 50px auto 0;
+    margin: auto;
     transition: .15s ease-in-out;
     background-image: linear-gradient(134deg, #64a052   0%, #00717d 85%);
     color: #fff;
