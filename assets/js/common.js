@@ -11,6 +11,11 @@
                 centerMode: true,
                 centerPadding: '60px',
                 slidesToShow: 3,
+                easing: 'linear',
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                lazyLoad: 'ondemand',
             }
         );
     }
@@ -33,8 +38,7 @@
                 slidesToShow: 3,
                 easing: 'linear',
                 infinite: true,
-                autoplay: true,
-                autoplaySpeed: 2000,
+                autoplay: false,
                 lazyLoad: 'ondemand',
             }
         );
