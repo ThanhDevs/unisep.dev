@@ -24,12 +24,13 @@ HEADER
 */
 header {
     background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
 }
 
 #top {
     line-height: 50px;
     background-color: #5bab2e;
-    background-image: linear-gradient(141deg, #00AAA1 0%, #51b8b0 51%, #7ac7bf 75%);
+    background-image: linear-gradient(134deg, #01045D 0%, #044A99 85%);
     color: #fff;
 }
 
@@ -64,7 +65,7 @@ header {
 
 #main_nav > ul > li >  a {
     text-transform: uppercase;
-    color: #0E644B;
+    color: #132E62;
     font-weight: 600;
 }
 
@@ -109,7 +110,7 @@ Modules
 
 #uni_modules {
     background-color: #5bab2e;
-    background-image: linear-gradient(141deg, #00AAA1 0%, #51b8b0 51%, #7ac7bf 75%);
+    background-image: linear-gradient(134deg, #01045D 0%, #044A99 85%);
     color: #fff;
 }
 
@@ -141,6 +142,10 @@ Modules
     left: 0;
 }
 
+.uni_list_box h3 {
+    text-transform: uppercase;
+}
+
 .uni_video_box iframe {
     width: 100%;
     display: block;
@@ -149,10 +154,10 @@ Modules
 /*  */
 
 .img_box_content {
-    box-shadow: 0 2px 15px 0 rgba(0,0,0,.1);
+    box-shadow: 0 36px 43px 0 rgba(0,0,0,0.2);
     border-radius: 18px;
     overflow: hidden;
-
+    color: #424672;
 }
 
 .img_box_content .text_wrap {
@@ -181,17 +186,12 @@ Modules
     margin: 10px -10px;
 }
 
-.uni_video_box.style2::after {
-    background-color: #5bab2e;
-} 
+.uni_video_box.style2::after {background-image: linear-gradient(234deg,#9B42DA 0,#51509C 60%,#51509C 100%);} 
 
 /* 
 OUT TEAM
 */
-#our_team {
-    background: #092b6b url(../imgs/cvtv-bg.jpg) 0 no-repeat;
-    background-size: cover;
-}
+#our_team {background-image: linear-gradient(134deg, #01045D 0%, #044A99 85%);}
 
 #our_team .title_wrap .title {
     color: #e5f1dc;
@@ -228,4 +228,17 @@ OUT TEAM
     margin: 0 0 30px;
     background: url(../imgs/chat-tools.png) no-repeat center bottom;
     padding-bottom: 35px;
+}
+
+/* 
+FOOTER 
+*/
+
+#footer {
+    background-color: #1c1f21;
+    color: #e5f1dc;
+}
+
+footer#footer .widget-title {
+    text-transform: uppercase;
 }
